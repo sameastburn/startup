@@ -1,0 +1,29 @@
+.box {
+  border-radius: 0px;
+  padding: 10px;
+  font-size: 150%;
+}
+
+.box-header-title {
+  color: white;
+  font-weight: 500;
+  font-size: 25px;
+  padding-top: 0.25em;
+  padding-left: 0.25em;
+}
+
+.header {
+  background-color: rgb(38, 38, 38);
+  padding: 20px;
+}
+
+.content {
+  background-color: rgb(31, 31, 35);
+  overflow: scroll;
+  padding: 20px;
+  height: calc(100vh - 140px);
+}
+
+body {
+  height: 100vh;
+}

@@ -3,18 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <title>MyPlanner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <header>
-      <h1>MyPlanner</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Schedule</a></li>
-        </ul>
-      </nav>
-    </header>
     <main>
-      <p>This is the homepage of my website. Click on the links above to navigate to other pages.</p>
+      <div class="flex h-screen bg-gray-900 sm:relative">
+        <div class="flex flex-col px-4 mt-4">
+          <div class="text-gray-200 bg-gray-800 rounded-md p-2 cursor-pointer">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"/>
+            </svg>
+          </div>
+        </div>
+        <div class="flex flex-col w-full">
+          <div class="box header">
+            <div class="box-header-title">
+              Calendar
+            </div>
+          </div>
+          <div class="box content h-full">
+            <p>hello</p>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>
